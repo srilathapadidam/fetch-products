@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch_Project</title>
+
+    <!-- Stylesheet  -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Asw-some  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+  </head>
+  <body>
+
+    <!--header-->
+    <header class="header_bar">
+      <section class="profile" id="new">
+        <div class="profile-pic">
+          <img
+            src="./assets/logo-img.avif"
+            width="130px"
+            height="130px"
+            alt="logo-img"
+          />
+        </div>
+        <div class="proflie_info">
+            <h1>USER'S CHOICE</h1><span></span>
+            <p>update location</p>
+        </div>
+      </section>
+      <div class="search-box">
+        <i class="fa-solid fa-caret-down"></i>
+        <div class="box1">
+            <a>Search User's Choice</a>
+        </div>
+        <div class="box2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <section class="header_menu">
+        <div class="card-details">
+            <p>Hello,<span></span>Sign-in</p>
+            <h6>Accounts & Lists</h6>
+        </div>
+        <div class="card-details">
+          <p>Returns</p>
+          <h6> & Orders</h6>
+        </div>
+        <div class="card-img">
+            <img src="./assets/cart.png" width=50px height=50px alt="cart">
+        </div>
+      </section>
+    </header>
+
+    <!--navbar-->
+    <nav>
+        <div class="nav-menu">
+            <div class="menu-cards">
+              <p><i class="fa-solid fa-bars"></i></p>
+            </div>
+            <div class="menu-cards">
+              <p>All</p>
+            </div>
+            <div class="menu-cards">
+                <p>To day deals</p>
+            </div>
+            <div class="menu-cards">
+                <p>Women's Special</p>
+            </div>
+            <div class="menu-cards">
+                <p>Customer service</p>
+            </div>
+            <div class="menu-cards">
+                <p>Registry</p>
+            </div>
+            <div class="menu-cards">
+                <p>Gift Cards</p>
+            </div>
+            <div class="menu-cards">
+                <p>Sell</p>
+            </div>
+            <div class="menu-cards">
+                <p>more relevant new products</p>
+            </div>
+        </div>
+    </nav>
+
+    <!--products-->
+    <section class="produts_container">
+      <div class="product_heading">
+        <h2>Latest Products</h2>
+      </div>
+
+      <div class="product_card" id="product_card"></div>
+
+      <button class="view-more" id="loadMoreBtn">View More</button>
+    </section>
+
+    <!-- footer -->
+    <button class="btn" onclick=some() id="some">Back to top</button>
+    <footer class="ftr">
+      <div class="ftr-items">
+        <div class="ftr-card-item">
+          <h6>Web services</h6>
+          <div class="img-icons">
+            <img
+              src="./assets/image.jpeg"
+              width="100px"
+              height="60px"
+              alt="icons"
+            />
+          </div>
+        </div>
+        <div class="ftr-card-item">
+          <h6>Business</h6>
+          <p>Everything for<span></span>your Business</p>
+        </div>
+        <div class="ftr-card-item">
+          <h6>Make Money with Us</h6>
+          <p>Sell products on User's Choice<span></span>Become an Affiliate</p>
+        </div>
+        <div class="ftr-card-item">
+          <h6>Shipping Rates & Policies</h6>
+          <p>Advertise Your Products<span></span>Host an User's Choice Hub</p>
+        </div>
+        <div class="ftr-card-item">
+          <h6>Returns & Replacements</h6>
+          <p>Shop with Points<span></span>Reload Your Balance</p>
+        </div>
+        <div class="ftr-card-item">
+          <h6>Help & Assistant</h6>
+          <p>See More<span></span>Sell apps on User's Choice</p>
+        </div>
+      </div>
+      <div class="ftr-n-card">
+        <p>Australia Brazil Canada China  France Germany Italy Japan Mexico Netherlands Poland Singapore Spain Turkey United Arab Emirates</p>
+      </div>
+    </footer>
+    <div class="ftr-bottom">
+        <div class="ftr-card-btm">
+        <p>Conditions of use & sale  Privacy Notice   Interest-Based Ads<span></span>
+        <i class="fa-regular fa-copyright"></i>1996-2024, User'choice.com, Inc. or its
+        affiliates</p>
+      </div>
+    </div>
+    <script>
+      function some(){
+        console.log("text")
+        window.scroll(0,0)
+      }
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
